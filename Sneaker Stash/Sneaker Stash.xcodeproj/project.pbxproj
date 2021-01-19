@@ -1,0 +1,413 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		94123CB024301E9C00696CA5 /* another_one.wav in Resources */ = {isa = PBXBuildFile; fileRef = 94123CAF24301E9C00696CA5 /* another_one.wav */; };
+		94123CB2243020AC00696CA5 /* cash_register.wav in Resources */ = {isa = PBXBuildFile; fileRef = 94123CB1243020AC00696CA5 /* cash_register.wav */; };
+		945B74D0242EC68800089683 /* sneakers in Resources */ = {isa = PBXBuildFile; fileRef = 945B74CE242EBF8000089683 /* sneakers */; };
+		94CC9935242F1BBB008AFFFB /* Sneaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94CC9934242F1BBB008AFFFB /* Sneaker.swift */; };
+		94CC9937242F2309008AFFFB /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 94CC9936242F2308008AFFFB /* logo.png */; };
+		94CFD872242FE7EC00BB2BCE /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 94CFD871242FE7EC00BB2BCE /* Lottie */; };
+		94CFD874242FFD6C00BB2BCE /* basketball.json in Resources */ = {isa = PBXBuildFile; fileRef = 94CFD873242FFD6C00BB2BCE /* basketball.json */; };
+		94D99345242EAFF600A2F907 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94D99344242EAFF600A2F907 /* AppDelegate.swift */; };
+		94D99347242EAFF600A2F907 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94D99346242EAFF600A2F907 /* SceneDelegate.swift */; };
+		94D99349242EAFF600A2F907 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94D99348242EAFF600A2F907 /* ViewController.swift */; };
+		94D9934C242EAFF600A2F907 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94D9934A242EAFF600A2F907 /* Main.storyboard */; };
+		94D9934F242EAFF600A2F907 /* Sneaker_Stash.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 94D9934D242EAFF600A2F907 /* Sneaker_Stash.xcdatamodeld */; };
+		94D99351242EAFF700A2F907 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94D99350242EAFF700A2F907 /* Assets.xcassets */; };
+		94D99354242EAFF700A2F907 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94D99352242EAFF700A2F907 /* LaunchScreen.storyboard */; };
+		94D9935C242EB76B00A2F907 /* Futura Condensed Extra Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 94D9935B242EB76B00A2F907 /* Futura Condensed Extra Bold.otf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		94123CAF24301E9C00696CA5 /* another_one.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = another_one.wav; sourceTree = "<group>"; };
+		94123CB1243020AC00696CA5 /* cash_register.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = cash_register.wav; sourceTree = "<group>"; };
+		945B74CE242EBF8000089683 /* sneakers */ = {isa = PBXFileReference; lastKnownFileType = folder; path = sneakers; sourceTree = "<group>"; };
+		94CC9934242F1BBB008AFFFB /* Sneaker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sneaker.swift; sourceTree = "<group>"; };
+		94CC9936242F2308008AFFFB /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		94CFD873242FFD6C00BB2BCE /* basketball.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = basketball.json; sourceTree = "<group>"; };
+		94D99341242EAFF600A2F907 /* Sneaker Stash.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sneaker Stash.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		94D99344242EAFF600A2F907 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		94D99346242EAFF600A2F907 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		94D99348242EAFF600A2F907 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		94D9934B242EAFF600A2F907 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		94D9934E242EAFF600A2F907 /* Sneaker_Stash.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Sneaker_Stash.xcdatamodel; sourceTree = "<group>"; };
+		94D99350242EAFF700A2F907 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		94D99353242EAFF700A2F907 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		94D99355242EAFF700A2F907 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94D9935B242EB76B00A2F907 /* Futura Condensed Extra Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Futura Condensed Extra Bold.otf"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		94D9933E242EAFF600A2F907 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94CFD872242FE7EC00BB2BCE /* Lottie in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		94D99338242EAFF600A2F907 = {
+			isa = PBXGroup;
+			children = (
+				94D99343242EAFF600A2F907 /* Sneaker Stash */,
+				94D99342242EAFF600A2F907 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		94D99342242EAFF600A2F907 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				94D99341242EAFF600A2F907 /* Sneaker Stash.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		94D99343242EAFF600A2F907 /* Sneaker Stash */ = {
+			isa = PBXGroup;
+			children = (
+				945B74CE242EBF8000089683 /* sneakers */,
+				94D99344242EAFF600A2F907 /* AppDelegate.swift */,
+				94D99346242EAFF600A2F907 /* SceneDelegate.swift */,
+				94CC9936242F2308008AFFFB /* logo.png */,
+				94CFD873242FFD6C00BB2BCE /* basketball.json */,
+				94D99348242EAFF600A2F907 /* ViewController.swift */,
+				94D9934A242EAFF600A2F907 /* Main.storyboard */,
+				94123CB1243020AC00696CA5 /* cash_register.wav */,
+				94123CAF24301E9C00696CA5 /* another_one.wav */,
+				94D9935B242EB76B00A2F907 /* Futura Condensed Extra Bold.otf */,
+				94D99350242EAFF700A2F907 /* Assets.xcassets */,
+				94D99352242EAFF700A2F907 /* LaunchScreen.storyboard */,
+				94D99355242EAFF700A2F907 /* Info.plist */,
+				94D9934D242EAFF600A2F907 /* Sneaker_Stash.xcdatamodeld */,
+				94CC9934242F1BBB008AFFFB /* Sneaker.swift */,
+			);
+			path = "Sneaker Stash";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		94D99340242EAFF600A2F907 /* Sneaker Stash */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94D99358242EAFF700A2F907 /* Build configuration list for PBXNativeTarget "Sneaker Stash" */;
+			buildPhases = (
+				94D9933D242EAFF600A2F907 /* Sources */,
+				94D9933E242EAFF600A2F907 /* Frameworks */,
+				94D9933F242EAFF600A2F907 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Sneaker Stash";
+			packageProductDependencies = (
+				94CFD871242FE7EC00BB2BCE /* Lottie */,
+			);
+			productName = "Sneaker Stash";
+			productReference = 94D99341242EAFF600A2F907 /* Sneaker Stash.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		94D99339242EAFF600A2F907 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Matthew Krishnan";
+				TargetAttributes = {
+					94D99340242EAFF600A2F907 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 94D9933C242EAFF600A2F907 /* Build configuration list for PBXProject "Sneaker Stash" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 94D99338242EAFF600A2F907;
+			packageReferences = (
+				94CFD870242FE7EC00BB2BCE /* XCRemoteSwiftPackageReference "lottie-ios" */,
+			);
+			productRefGroup = 94D99342242EAFF600A2F907 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				94D99340242EAFF600A2F907 /* Sneaker Stash */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		94D9933F242EAFF600A2F907 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94D99354242EAFF700A2F907 /* LaunchScreen.storyboard in Resources */,
+				94D9935C242EB76B00A2F907 /* Futura Condensed Extra Bold.otf in Resources */,
+				94D99351242EAFF700A2F907 /* Assets.xcassets in Resources */,
+				94123CB024301E9C00696CA5 /* another_one.wav in Resources */,
+				94CFD874242FFD6C00BB2BCE /* basketball.json in Resources */,
+				94123CB2243020AC00696CA5 /* cash_register.wav in Resources */,
+				94D9934C242EAFF600A2F907 /* Main.storyboard in Resources */,
+				94CC9937242F2309008AFFFB /* logo.png in Resources */,
+				945B74D0242EC68800089683 /* sneakers in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		94D9933D242EAFF600A2F907 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94D99349242EAFF600A2F907 /* ViewController.swift in Sources */,
+				94CC9935242F1BBB008AFFFB /* Sneaker.swift in Sources */,
+				94D9934F242EAFF600A2F907 /* Sneaker_Stash.xcdatamodeld in Sources */,
+				94D99345242EAFF600A2F907 /* AppDelegate.swift in Sources */,
+				94D99347242EAFF600A2F907 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		94D9934A242EAFF600A2F907 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				94D9934B242EAFF600A2F907 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		94D99352242EAFF700A2F907 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				94D99353242EAFF700A2F907 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		94D99356242EAFF700A2F907 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		94D99357242EAFF700A2F907 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		94D99359242EAFF700A2F907 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Sneaker Stash/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "MK-Software.Sneaker-Stash";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		94D9935A242EAFF700A2F907 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Sneaker Stash/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "MK-Software.Sneaker-Stash";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		94D9933C242EAFF600A2F907 /* Build configuration list for PBXProject "Sneaker Stash" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94D99356242EAFF700A2F907 /* Debug */,
+				94D99357242EAFF700A2F907 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94D99358242EAFF700A2F907 /* Build configuration list for PBXNativeTarget "Sneaker Stash" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94D99359242EAFF700A2F907 /* Debug */,
+				94D9935A242EAFF700A2F907 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		94CFD870242FE7EC00BB2BCE /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.1.6;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		94CFD871242FE7EC00BB2BCE /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 94CFD870242FE7EC00BB2BCE /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		94D9934D242EAFF600A2F907 /* Sneaker_Stash.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				94D9934E242EAFF600A2F907 /* Sneaker_Stash.xcdatamodel */,
+			);
+			currentVersion = 94D9934E242EAFF600A2F907 /* Sneaker_Stash.xcdatamodel */;
+			path = Sneaker_Stash.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 94D99339242EAFF600A2F907 /* Project object */;
+}
